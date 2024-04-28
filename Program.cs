@@ -71,5 +71,14 @@ Console.WriteLine(value2);
 // formatting decimals
 int fahrenheit = 94;
 decimal celsius = (fahrenheit - 32m) * (5m / 9m);
-Console.WriteLine($"The temperature is {celsius.ToString("#.#")} Celsius.");
+Console.WriteLine($"The temperature is {celsius:#.#} Celsius.");
 
+// array functions
+int[] sophiaGrades = [93, 87, 98, 95, 100];
+Console.WriteLine($"The sum of Sophia's grades is {sophiaGrades.Sum()}.");
+Console.WriteLine($"The average of Sophia's grades is {sophiaGrades.Average()}.");
+
+// declare constants
+const int gradeA = 5;
+const int gradeB = 4;
+const int gradeC = 3;
