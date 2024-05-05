@@ -1,6 +1,8 @@
-class _03Array
-{
+using System;
 
+class _03Array
+
+{
   public static void Array()
   {
     string[] fraudulentOrderIDs = ["A123", "B456", "C789"];

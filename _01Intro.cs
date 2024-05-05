@@ -1,4 +1,6 @@
-﻿class _01Intro
+﻿using System;
+
+class _01Intro
 
 {
   public static void Intro()
